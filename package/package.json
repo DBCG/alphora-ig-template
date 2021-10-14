@@ -1,0 +1,13 @@
+{
+  "name": "cqf.fhir.template",
+  "version": "0.0.2",
+  "type": "fhir.template",
+  "license": "CC0-1.0",
+  "description": "CQF FHIR Template",
+  "author": "CQFramework",
+  "canonical": "http://fhir.org/templates/cqf.fhir.template",
+  "base": "fhir.base.template",
+  "dependencies": {
+    "fhir.base.template": "current"
+  }
+}

@@ -1,11 +1,11 @@
 {
-  "name": "cqf.fhir.template",
-  "version": "0.0.2",
+  "name": "alphora.fhir.template",
+  "version": "0.0.0",
   "type": "fhir.template",
-  "license": "CC0-1.0",
-  "description": "CQF FHIR Template",
-  "author": "CQFramework",
-  "canonical": "http://fhir.org/templates/cqf.fhir.template",
+  "license": "Copyright Dynamic Content Group (dba Alphora) 2021+",
+  "description": "Alphora FHIR Template",
+  "author": "Dynamic Content Group (dba Alphora)",
+  "canonical": "https://github.com/DBCG/alphora-ig-template",
   "base": "fhir.base.template",
   "dependencies": {
     "fhir.base.template": "current"

@@ -1,6 +1,6 @@
 {
   "name": "alphora.fhir.template",
-  "version": "0.0.0",
+  "version": "current",
   "type": "fhir.template",
   "license": "Copyright Dynamic Content Group (dba Alphora) 2021+",
   "description": "Alphora FHIR Template",

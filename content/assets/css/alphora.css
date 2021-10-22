@@ -1,0 +1,79 @@
+:root {
+    --ig-status-text-color: #283fb6;
+    /* 1. IG Title and status text color */
+    --navbar-bg-color: #ff5722;
+    /* 2. Header container color */
+    --footer-bg-color: #283fb6;
+    /* 3. Footer background color*/
+    --footer-container-bg-color: #ff5722;
+    /* 4. Footer container color */
+    --stripe-bg-color: #283fb6;
+    /* 5. Header strip color */
+    --btn-hover-color: #ff8922;
+    /* 6. Menu button hover color */
+    --btn-active-color: #ff8922;
+    /* 7. Menu button active color */
+    --btn-text-color: #ffffff;
+    /* 8. Menu button text color */
+    --btn-gradient-start-color: #283fb6;
+    /* 9. Menu item gradient start color */
+    --btn-gradient-end-color: #283fb6;
+    /* 10. Menu item gradient end  color */
+    --btn-gradient-start-color-alpha: #283fb6;
+    /* 11. Menu item gradient start color (with alpha) */
+    --btn-gradient-end-color-alpha: #283fb6;
+    /* 12. Menu item gradient end color (with alpha) */
+    --link-color: #283fb6;
+    /* 13. Hyperlink text color */
+    --link-hover-color: #03cdff;
+    ;
+    /* 14. Hyperlink text hover color */
+    --toc-box-bg-color: #ffd8b5;
+    /* 17.  TOC box background color */
+    --ig-header-color: #ffffff;
+    /* 21. Header color (sides) */
+    --ig-header-container-color: #ffffff;
+    /* 22. Header container color (center) */
+    --footer-nav-bg-color: #ffffff;
+    /* 23. Footer navigation background color*/
+    --footer-text-color: #ffffff;
+    /* 24. Footer highlight font color */
+    --footer-hyperlink-text-color: #ffffff;
+    /* 25. Footer hyperlinks font color */
+    --footer-highlight-text-color: #03cdff;
+    ;
+    /* 26. Footer highlight font color */
+}
+
+#stripe {
+    height: 40px;
+}
+
+:root pre {
+    width: 100%;
+}
+
+:root .nav-tabs {
+    color: #000000;
+    border-color: #283fb6;
+}
+
+:root .nav-tabs>li.active>a,
+:root .nav-tabs>li.active>a:hover,
+:root .nav-tabs>li.active>a:focus {
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid #ff5722;
+    border-bottom-color: transparent;
+}
+
+:root .nav-tabs>li>a:hover,
+:root .nav-tabs>li>a:focus {
+    color: #000000;
+    background-color: #ffd8b5;
+    border-bottom-color: #ff5722
+}
+
+:root #segment-footer a {
+    text-decoration: underline;
+}

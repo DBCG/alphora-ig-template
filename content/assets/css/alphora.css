@@ -1,13 +1,13 @@
 :root {
     --ig-status-text-color: #283fb6;
     /* 1. IG Title and status text color */
-    --navbar-bg-color: #ff5722;
+    --navbar-bg-color: #283fb6;
     /* 2. Header container color */
-    --footer-bg-color: #283fb6;
+    --footer-bg-color: #909cff;
     /* 3. Footer background color*/
-    --footer-container-bg-color: #ff5722;
+    --footer-container-bg-color: #283fb6;
     /* 4. Footer container color */
-    --stripe-bg-color: #283fb6;
+    --stripe-bg-color: #909cff;
     /* 5. Header strip color */
     --btn-hover-color: #ff8922;
     /* 6. Menu button hover color */
@@ -25,12 +25,12 @@
     /* 12. Menu item gradient end color (with alpha) */
     --link-color: #283fb6;
     /* 13. Hyperlink text color */
-    --link-hover-color: #03cdff;
+    --link-hover-color: #ff8922;
     ;
     /* 14. Hyperlink text hover color */
     --toc-box-bg-color: #ffd8b5;
     /* 17.  TOC box background color */
-    --ig-header-color: #ffffff;
+    --ig-header-color: #efefef;
     /* 21. Header color (sides) */
     --ig-header-container-color: #ffffff;
     /* 22. Header container color (center) */
@@ -40,14 +40,12 @@
     /* 24. Footer highlight font color */
     --footer-hyperlink-text-color: #ffffff;
     /* 25. Footer hyperlinks font color */
-    --footer-highlight-text-color: #03cdff;
+    --footer-highlight-text-color: #ff8922;
     ;
     /* 26. Footer highlight font color */
 }
 
-#stripe {
-    height: 40px;
-}
+
 
 :root pre {
     width: 100%;
@@ -63,7 +61,7 @@
 :root .nav-tabs>li.active>a:focus {
     color: #000000;
     background-color: #ffffff;
-    border: 1px solid #ff5722;
+    border: 1px solid #ff8922;
     border-bottom-color: transparent;
 }
 
@@ -71,9 +69,5 @@
 :root .nav-tabs>li>a:focus {
     color: #000000;
     background-color: #ffd8b5;
-    border-bottom-color: #ff5722
-}
-
-:root #segment-footer a {
-    text-decoration: underline;
+    border-bottom-color: #ff8922;
 }
